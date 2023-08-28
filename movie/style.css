@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+background-color: rgb(215, 115, 115);
+  background-position: center;
+  background: -moz-linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(0, 0, 0, 0.5) 50%
+  );
+  background-size: cover;
+  height: 109vh;
+}
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.imageLogo {
+  float: left;
+  position: absolute;
+  left: 150px;
+  top: 100px;
+
+}
+
+.form {
+  width: 250px;
+  height: 380px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 50%,
+    rgba(0, 0, 0.8) 50%
+  );
+  position: absolute;
+  top: 60px;
+  left: 780px;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.form h2 {
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #211e1d;
+  font-size: 22px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+}
+p{
+  color: #fff;
+}
+.form input {
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border: 1px solid #cc3232;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: #fff;
+  padding: 10px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #fff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.btnn {
+  width: 240px;
+  height: 40px;
+  background: #cc3232;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease;
+}
+
+.btnn:hover {
+  background: #fff;
+  color: #cc3232;
+}
+
+.btnn a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.form .link {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 17px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.form .link a {
+  text-decoration: none;
+  color: #cc3232;
+}
+
+.liw {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.icons a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.icons ion-icon {
+  color: #fff;
+  font-size: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+}
+
+.icons ion-icon:hover {
+  color: #cc3232;
+}
+
+@media screen and (max-width: 1200px) {
+  /*Normal Screen*/
+
+  .btn {
+    height: 40px;
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  /*Login-box*/
+  .main {
+    padding-left: 20px;
+    height: 180vh;
+  }
+  .form {
+    margin-left: 130px;
+    width: 250px;
+    height: 370px;
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 50%,
+      rgba(0, 0, 0, 0.8) 50%
+    );
+    position: absolute;
+    top: 549px;
+    left: 50px;
+    transform: translate(0%, -5%);
+    border-radius: 10px;
+    padding: 25px;
+  }
+  .form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #cc3232;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+  }
+  .btnn a {
+    font-size: 16px;
+  }
+  .form .link a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  /*For tablet*/
+
+  .btn {
+    height: 30px;
+    width: 70px;
+  }
+  .main {
+    padding-left: 20px;
+    height: 180vh;
+  }
+  .form {
+    margin-left: 100px;
+    width: 250px;
+    height: 370px;
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 50%,
+      rgba(0, 0, 0, 0.8) 50%
+    );
+    position: absolute;
+    top: 550px;
+    left: 50px;
+    transform: translate(0%, -5%);
+    border-radius: 10px;
+    padding: 25px;
+  }
+  .imageLogo{
+    position: relative;
+    left: 89px;
+  }
+  .form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #cc3232;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+  }
+  .btnn a {
+    font-size: 16px;
+  }
+  .form .link a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  /*hp*/
+  .imageLogo{
+    position: relative;
+    left: 50px;
+  }
+  .btn {
+    height: 30px;
+    width: 70px;
+  }
+  .main {
+    padding-left: 20px;
+    height: 180vh;
+  }
+  .form {
+    margin-left: -30px;
+    width: 250px;
+    height: 370px;
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 50%,
+      rgba(0, 0, 0, 0.8) 50%
+    );
+    position: absolute;
+    top: 430px;
+    left: 50px;
+    transform: translate(0%, -5%);
+    border-radius: 10px;
+    padding: 25px;
+  }
+  .form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #cc3232;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+  }
+  .btnn a {
+    font-size: 16px;
+  }
+  .form .link a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+
+  
+}
